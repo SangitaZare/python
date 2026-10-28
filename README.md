@@ -4,13 +4,15 @@ A hands-on learning path: core Python first, then data science.
 
 Each topic folder has:
 - **`README.md`**: simple notes, common mistakes, **interview questions with answers**, and practice tasks
-- **`examples.py`**: a runnable script for everything in the notes
+- **`examples.py`** (Part 1) or a **Jupyter notebook** (Part 2): runnable code for everything in the notes
 
 ```bash
 python 01_basics/examples.py
 ```
 
 Part 1 needs only Python 3.10 or newer. No libraries.
+
+> 🎯 **Preparing for an interview?** [INTERVIEW_QUESTIONS.md](INTERVIEW_QUESTIONS.md) has all 145 questions from every topic on one page, with answers hidden until you click, so you can test yourself.
 
 ## Part 1: Python
 
