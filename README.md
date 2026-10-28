@@ -22,7 +22,7 @@ Part 1 needs only Python 3.10 or newer. No libraries.
 | 04 | [Control flow](04_control_flow/): if, loops, break/continue, comprehensions, match | ✅ |
 | 05 | [Functions](05_functions/): args, `*args`/`**kwargs`, scope, lambda, closures | ✅ |
 | 06 | [OOP](06_oop/): classes, 4 pillars, inheritance, dunder methods, dataclasses | ✅ |
-| 07 | Errors & files: exceptions, `with`, JSON, CSV | ⏳ |
+| 07 | [Errors & files](07_errors_and_files/): exceptions, custom errors, `with`, pathlib, JSON, CSV | ✅ |
 | 08 | Modules & venv: imports, packages, pip | ⏳ |
 | 09 | Advanced: iterators, generators, decorators, type hints | ⏳ |
 | 10 | Mini project: expense tracker | ⏳ |
