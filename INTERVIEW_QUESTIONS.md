@@ -25,6 +25,7 @@ Each topic's README has the same questions next to the notes that explain them.
 | [14 · Statistics for Data Science](#14--statistics-for-data-science) | 12 |
 | [15 · EDA Project: What Drives Bike Rentals in Washington DC?](#15--eda-project-what-drives-bike-rentals-in-washington-dc) | Explain-your-project practice |
 | [16 · Machine Learning: Predicting Bike Demand](#16--machine-learning-predicting-bike-demand) | 12 |
+| [17 · Capstone: Who Should the Bank Call?](#17--capstone-who-should-the-bank-call) | Explain-your-project practice |
 
 ---
 ## 01 · Python Basics
@@ -1188,4 +1189,23 @@ A measure of how much a model relies on each feature. Permutation importance shu
 Be suspicious. Check for leakage (features derived from the target or from the future), check the split (random splits on time data), and check whether the test set accidentally overlaps with training.
 
 </details>
+
+
+---
+
+## 17 · Capstone: Who Should the Bank Call?
+
+📖 Notes: [17_capstone/README.md](17_capstone/README.md)
+
+### Interview practice: present this project
+
+**"Walk me through your capstone."**
+> "I built a model to help a bank decide whom to call in a telemarketing campaign, using 41,000 real calls. I first defined success as ranking quality and profit, because accuracy is useless when only 11% say yes. In the data audit I found placeholder missing values and two leaky columns, call duration and the campaign contact count, which are only known after the call. The most important discovery was a big dataset shift after the 2008 crisis: the success rate went from 6% to 31%. Because of that, I tested on a time-based split, and it changed the model choice: gradient boosting looked best on a random split but failed on the future, while logistic regression generalised. The model's first 20% of calls catch 38% of sales, and with assumed costs, calling the top 58% earns about a third more than calling everyone. I shipped it as a Streamlit app with tests, and the tests caught a real bug in the app."
+
+**Likely follow-up questions:**
+1. *Why not accuracy?* With 11% positives, predicting "no" for everyone is 89% accurate. Ranking metrics and profit match the business decision.
+2. *Why did the simpler model win?* Trees can't extrapolate beyond the feature values they've seen, and the test period's economy was outside the training range.
+3. *How did you choose how many people to call?* From the profit curve: keep calling while the expected value of the next call exceeds its cost. The app lets the business change the cost and value assumptions.
+4. *A simple rule did as well at the top. Why use a model?* The rule only separates a few groups. The model ranks everyone, which matters when the profitable plan is to call over half the list.
+5. *What are the risks?* Dataset shift, uncalibrated probabilities, assumed costs, and fairness concerns around age and job.
 

@@ -47,12 +47,12 @@ pip install -r requirements.txt
 | 14 | [Statistics](14_statistics/): distributions, CLT, confidence intervals, hypothesis tests, A/B testing (notebook) | ✅ |
 | 15 | [EDA Project: Bike Sharing](15_eda_project/): real data, quality checks, 6 questions, recommendations | ✅ |
 | 16 | [Machine Learning](16_machine_learning/): predict bike demand with scikit-learn, honest evaluation, leakage, saved model + CLI | ✅ |
-| 17 | Capstone: data → model → insights | ⏳ |
+| 17 | [Capstone: Who Should the Bank Call?](17_capstone/): real data → audit → EDA → stats → model → profit → Streamlit app, with tests | ✅ |
 
 ## How to study
 
 1. Read the topic's `README.md`.
-2. Run `examples.py` and compare the output with the code.
+2. Run `examples.py` (Part 1) or open the notebook (Part 2), and compare the output with the code.
 3. Change the code and break it on purpose to see the errors.
 4. Answer the interview questions **out loud** before reading the answers.
 5. Do the practice tasks.
