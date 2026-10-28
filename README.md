@@ -17,7 +17,7 @@ Part 1 needs only Python 3.10 or newer. No libraries.
 | # | Topic | Status |
 |---|-------|--------|
 | 01 | [Basics](01_basics/): variables, types, operators, truthy/falsy, conversion | ✅ |
-| 02 | Strings: slicing, methods, f-strings | ⏳ |
+| 02 | [Strings](02_strings/): slicing, methods, f-strings, immutability | ✅ |
 | 03 | Collections: list, tuple, set, dict | ⏳ |
 | 04 | Control flow: if, loops, comprehensions, match | ⏳ |
 | 05 | Functions: args, `*args`/`**kwargs`, scope, lambda, closures | ⏳ |
