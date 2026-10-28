@@ -20,7 +20,7 @@ Part 1 needs only Python 3.10 or newer. No libraries.
 | 02 | [Strings](02_strings/): slicing, methods, f-strings, immutability | ✅ |
 | 03 | [Collections](03_collections/): list, tuple, set, dict, copying | ✅ |
 | 04 | [Control flow](04_control_flow/): if, loops, break/continue, comprehensions, match | ✅ |
-| 05 | Functions: args, `*args`/`**kwargs`, scope, lambda, closures | ⏳ |
+| 05 | [Functions](05_functions/): args, `*args`/`**kwargs`, scope, lambda, closures | ✅ |
 | 06 | OOP: classes, inheritance, dunder methods, dataclasses | ⏳ |
 | 07 | Errors & files: exceptions, `with`, JSON, CSV | ⏳ |
 | 08 | Modules & venv: imports, packages, pip | ⏳ |
