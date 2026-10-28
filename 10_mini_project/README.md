@@ -1,7 +1,10 @@
-# 10 · Mini Project: Expense Tracker CLI
+# 10 · Mini Project: Expense Tracker
 
-A command-line app to record daily expenses, see where your money goes, and export the data for analysis.
+An app to record daily expenses, see where your money goes, and export the data for analysis.
+It comes with **two interfaces that share the same code**: a terminal app (`main.py`, standard library only) and a web app (`web_app.py`, built with Streamlit).
 It is small enough to read in one sitting, but it is built the way real projects are: separate modules, input validation, safe saving, and **unit tests**.
+
+**The terminal version:**
 
 ```
   OCTOBER 2026
@@ -43,7 +46,33 @@ python main.py --help
 
 Your data is saved to `data/expenses.json`, and the demo uses `data/demo.json`. To reset the demo, delete `data/demo.json`. The `data/` folder is in `.gitignore`, so your personal spending never goes to GitHub.
 
-## Features
+### Web version (Streamlit)
+
+The web version needs one library, so install it inside a virtual environment (topic 08):
+
+```bash
+# from the repo root, once
+python -m venv .venv
+.venv\Scripts\activate              # Windows
+source .venv/bin/activate           # macOS / Linux
+pip install -r 10_mini_project/requirements.txt
+
+# then, every time
+cd 10_mini_project
+streamlit run web_app.py
+```
+
+Your browser opens at `http://localhost:8501`. The web app reads and writes the **same** JSON files as the terminal app, so an expense you add in one shows up in the other.
+
+| Area | What you get |
+|------|--------------|
+| Sidebar | Switch between demo and your own data, set the budget, add an expense with a form |
+| Top row | Spent, budget left, daily average and biggest expense as metric cards, plus a budget progress bar |
+| 📊 Summary tab | Bar chart by category, donut chart of shares, spending per day |
+| 📋 All expenses tab | A table you can filter by category and search by description, with a **Download CSV** button |
+| ⚙️ Manage tab | Delete an expense, with a confirmation checkbox |
+
+## Terminal features
 
 | # | Option | What it does |
 |---|--------|--------------|
@@ -59,14 +88,16 @@ Your data is saved to `data/expenses.json`, and the demo uses `data/demo.json`. 
 
 ## How the code is organised
 
-Each file has **one job**. Only `main.py` talks to the user. Everything else is plain logic, which is what makes it testable.
+Each file has **one job**. Only the two interface files (`main.py` and `web_app.py`) talk to the user. Everything else is plain logic, which is what makes it testable, and it is why adding a web UI didn't require changing a single line of the logic.
 
 ```mermaid
 flowchart TD
-    main["main.py<br/>menu, input, print"] --> validators["validators.py<br/>text → clean values"]
+    main["main.py<br/>terminal UI"] --> validators["validators.py<br/>text → clean values"]
     main --> tracker["tracker.py<br/>ExpenseTracker (logic)"]
     main --> reports["reports.py<br/>data → text"]
     main --> storage["storage.py<br/>JSON + CSV files"]
+    web["web_app.py<br/>Streamlit web UI"] --> tracker
+    web --> storage
     tracker --> models["models.py<br/>Expense dataclass"]
     storage --> models
     reports --> colors["colors.py<br/>ANSI colours"]
@@ -84,8 +115,9 @@ flowchart TD
 | [storage.py](storage.py) | Loading and saving JSON (safely) and exporting CSV | `pathlib`, `json`, `csv`, `with` |
 | [colors.py](colors.py) | Coloured text with ANSI codes, switched off when output isn't a terminal | `sys`, `os`, environment variables |
 | [main.py](main.py) | The menu loop, asking questions, command-line options | `match`/`case`, decorators, `argparse` |
+| [web_app.py](web_app.py) | The Streamlit web interface: forms, metric cards, charts, table, download | Streamlit, a first taste of pandas, Altair charts |
 | [sample_data.py](sample_data.py) | Demo data | |
-| [tests/](tests/) | 37 unit tests | `unittest`, `setUp`, `subTest`, temporary folders |
+| [tests/](tests/) | 41 tests (4 of them click through the web app) | `unittest`, `setUp`, `subTest`, `mock.patch`, Streamlit `AppTest` |
 
 ### Follow one action through the code: adding an expense
 
@@ -139,7 +171,13 @@ JSON keeps the structure (the budget plus a list of expenses) and is easy for pe
 **Why turn colours off when the output isn't a terminal?**
 In a file or a pipe, ANSI codes show up as junk like `[33m`. The app also respects the `NO_COLOR` environment variable.
 
-**What I deliberately left out:** a database, a GUI and any third-party libraries. They aren't needed at this size, and leaving them out keeps the core Python visible. Each one is an extension challenge below.
+**Why Streamlit for the web version, and not Flask or Tkinter?**
+Streamlit turns a Python script into a web app with no HTML, CSS or JavaScript, and charts are built in. Flask is a *backend* framework: it would need separate HTML/CSS/JS files for the pages and a JavaScript library for the charts. Tkinter makes desktop windows and looks dated. For a data-focused app, Streamlit is the tool data scientists actually use.
+
+**How does a Streamlit app work?**
+Every click or keystroke re-runs `web_app.py` from top to bottom. So the file simply loads the data, draws the page, and saves after a change. `st.session_state` keeps small things (like the "Added #14" message) alive across reruns.
+
+**What I deliberately left out:** a database, user accounts and a custom-designed website. They aren't needed at this size. Each one is an extension challenge below.
 
 ---
 
@@ -151,11 +189,13 @@ python -m unittest -v
 ```
 
 ```
-Ran 37 tests in 0.08s
+Ran 41 tests in 2.5s
 OK
 ```
 
 The tests use a temporary folder, so they never touch your real data. Read [tests/test_tracker.py](tests/test_tracker.py) first; it's the easiest one to follow.
+
+The 4 web tests in [tests/test_web_app.py](tests/test_web_app.py) use Streamlit's `AppTest` to fill in the form and click buttons without a browser. If Streamlit isn't installed, they are skipped and the other 37 still run.
 
 ## Data format
 
@@ -194,14 +234,14 @@ These are ordered from easy to hard. Each one teaches something new. Write a tes
 
 8. Recurring expenses: rent should be added automatically each month.
 9. Replace JSON with **SQLite** (`sqlite3` is built in). Only `storage.py` should need to change. That's the reward for good structure.
-10. Use the `rich` library for nicer tables, or build a web version with Flask that reuses `tracker.py`.
+10. Build a Flask API (`/expenses`, `/summary`) that reuses `tracker.py`, or deploy the Streamlit app for free on Streamlit Community Cloud.
 
 ---
 
 ## Interview practice: talk about this project
 
 **"Walk me through your project."**
-> "It's a command-line expense tracker in Python. I split it into modules by responsibility: a dataclass model, a tracker class for the business logic, a reports module that only builds text, and a storage module for JSON and CSV. Only the main module does input and output, so the core logic is covered by 37 unit tests. Expenses validate themselves in `__post_init__`, I used custom exceptions for user errors, and saving goes through a temporary file so a crash can't corrupt the data. The CSV export is the starting point for analysing the data with pandas."
+> "It's an expense tracker in Python with two interfaces, a terminal app and a Streamlit web app. I split it into modules by responsibility: a dataclass model, a tracker class for the business logic, a reports module that only builds text, and a storage module for JSON and CSV. Only the two UI files do input and output, so adding the web version didn't change any logic, and everything is covered by 41 tests. Expenses validate themselves in `__post_init__`, I used custom exceptions for user errors, and saving goes through a temporary file so a crash can't corrupt the data. The CSV export is the starting point for analysing the data with pandas."
 
 **Likely follow-up questions:**
 1. *How would you add a database?* Only `storage.py` would change, because the rest of the app only calls `load()` and `save()`.

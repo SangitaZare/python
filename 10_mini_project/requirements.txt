@@ -1,0 +1,3 @@
+# Only needed for the web version (web_app.py).
+# The terminal app (main.py) uses the standard library only.
+streamlit==1.66.1
