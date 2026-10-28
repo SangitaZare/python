@@ -48,6 +48,11 @@ PRIMARY = SLOTS[0]
 BLUE_RAMP = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
 BLUES = LinearSegmentedColormap.from_list("blues", BLUE_RAMP)
 
+# Diverging (two opposite hues + a neutral grey middle) for values with a sign,
+# like correlations from -1 to +1. The middle must read as "nothing".
+DIVERGING = LinearSegmentedColormap.from_list(
+    "blue_red", ["#184f95", "#6da7ec", "#f0efec", "#ef8e8d", "#b8302f"])
+
 
 # ---- style ----------------------------------------------------------------
 

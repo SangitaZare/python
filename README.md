@@ -43,7 +43,7 @@ pip install -r requirements.txt
 | 12 | [Pandas](12_pandas/): cleaning messy data, groupby, merge, pivot tables (Jupyter notebook) | ✅ |
 | 13 | [Visualisation](13_visualisation/): Matplotlib and Seaborn, 12 charts with design rules (notebook) | ✅ |
 | 14 | [Statistics](14_statistics/): distributions, CLT, confidence intervals, hypothesis tests, A/B testing (notebook) | ✅ |
-| 15 | EDA project on a real dataset | ⏳ |
+| 15 | [EDA Project: Bike Sharing](15_eda_project/): real data, quality checks, 6 questions, recommendations | ✅ |
 | 16 | Machine learning with scikit-learn | ⏳ |
 | 17 | Capstone: data → model → insights | ⏳ |
 
