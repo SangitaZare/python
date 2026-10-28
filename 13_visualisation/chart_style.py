@@ -104,9 +104,24 @@ def rupees(value) -> str:
     return f"₹{value:.0f}"
 
 
-# Axis ticks use one unit only (k). Mixing "₹75k" and "₹1L" on the same axis
-# makes readers stop and convert.
-RUPEES = FuncFormatter(lambda value, _pos: f"₹{value / 1000:,.0f}k" if value else "₹0")
+def _axis_rupees(value, _pos=None) -> str:
+    """Axis ticks: ₹0, ₹500, ₹1.5k, ₹150k, −₹1k.
+
+    Ticks never switch to lakh: mixing "₹75k" and "₹1L" on one axis makes
+    readers stop and convert. Decimals are kept when needed, so two ticks
+    never round to the same label (1.5k and 2k, not 2k and 2k).
+    """
+    if value == 0:
+        return "₹0"
+    sign = "−" if value < 0 else ""
+    size = abs(value)
+    if size < 1000:
+        return f"{sign}₹{size:,.0f}"
+    thousands = f"{size / 1000:,.1f}".rstrip("0").rstrip(".")
+    return f"{sign}₹{thousands}k"
+
+
+RUPEES = FuncFormatter(_axis_rupees)
 
 
 def contrast_text(ax, values, threshold: float = 0.55) -> None:
