@@ -41,7 +41,7 @@ pip install -r requirements.txt
 |---|-------|--------|
 | 11 | [NumPy](11_numpy/): arrays, vectorisation, broadcasting, axis, masks, NaN | ✅ |
 | 12 | [Pandas](12_pandas/): cleaning messy data, groupby, merge, pivot tables (Jupyter notebook) | ✅ |
-| 13 | Visualisation: Matplotlib and Seaborn | ⏳ |
+| 13 | [Visualisation](13_visualisation/): Matplotlib and Seaborn, 12 charts with design rules (notebook) | ✅ |
 | 14 | Statistics for data science | ⏳ |
 | 15 | EDA project on a real dataset | ⏳ |
 | 16 | Machine learning with scikit-learn | ⏳ |
