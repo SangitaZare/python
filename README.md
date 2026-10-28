@@ -27,9 +27,25 @@ Part 1 needs only Python 3.10 or newer. No libraries.
 | 09 | [Advanced](09_advanced/): iterators, generators, itertools, decorators, type hints | ✅ |
 | 10 | [Mini project: Expense Tracker](10_mini_project/): a terminal app + Streamlit web app using topics 01–09, with 41 tests | ✅ |
 
-## Part 2: Data Science (after Python)
+## Part 2: Data Science
 
-NumPy → Pandas → Matplotlib/Seaborn → Statistics → EDA project → Machine Learning (scikit-learn) → Capstone
+Part 2 uses libraries, so set up a virtual environment once (see [topic 08](08_modules_and_venv/)):
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate            # Windows; macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+| # | Topic | Status |
+|---|-------|--------|
+| 11 | [NumPy](11_numpy/): arrays, vectorisation, broadcasting, axis, masks, NaN | ✅ |
+| 12 | Pandas: Series, DataFrame, cleaning, groupby, merge | ⏳ |
+| 13 | Visualisation: Matplotlib and Seaborn | ⏳ |
+| 14 | Statistics for data science | ⏳ |
+| 15 | EDA project on a real dataset | ⏳ |
+| 16 | Machine learning with scikit-learn | ⏳ |
+| 17 | Capstone: data → model → insights | ⏳ |
 
 ## How to study
 

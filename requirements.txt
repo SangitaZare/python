@@ -1,0 +1,4 @@
+# Libraries for Part 2 (Data Science). Part 1 needs none.
+# Install inside a virtual environment:  pip install -r requirements.txt
+# More libraries are added here as each topic starts.
+numpy==2.5.4
