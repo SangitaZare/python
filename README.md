@@ -25,7 +25,7 @@ Part 1 needs only Python 3.10 or newer. No libraries.
 | 07 | [Errors & files](07_errors_and_files/): exceptions, custom errors, `with`, pathlib, JSON, CSV | ✅ |
 | 08 | [Modules & venv](08_modules_and_venv/): imports, packages, `__name__`, pip, virtual environments | ✅ |
 | 09 | [Advanced](09_advanced/): iterators, generators, itertools, decorators, type hints | ✅ |
-| 10 | Mini project: expense tracker | ⏳ |
+| 10 | [Mini project: Expense Tracker](10_mini_project/): a real CLI app using topics 01–09, with 37 unit tests | ✅ |
 
 ## Part 2: Data Science (after Python)
 
