@@ -44,7 +44,7 @@ pip install -r requirements.txt
 | 13 | [Visualisation](13_visualisation/): Matplotlib and Seaborn, 12 charts with design rules (notebook) | ✅ |
 | 14 | [Statistics](14_statistics/): distributions, CLT, confidence intervals, hypothesis tests, A/B testing (notebook) | ✅ |
 | 15 | [EDA Project: Bike Sharing](15_eda_project/): real data, quality checks, 6 questions, recommendations | ✅ |
-| 16 | Machine learning with scikit-learn | ⏳ |
+| 16 | [Machine Learning](16_machine_learning/): predict bike demand with scikit-learn, honest evaluation, leakage, saved model + CLI | ✅ |
 | 17 | Capstone: data → model → insights | ⏳ |
 
 ## How to study
