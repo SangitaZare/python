@@ -2,6 +2,39 @@
 
 A hands-on learning path: core Python first, then data science.
 
-Each topic has simple notes, runnable examples, and interview questions with answers.
+Each topic folder has:
+- **`README.md`**: simple notes, common mistakes, **interview questions with answers**, and practice tasks
+- **`examples.py`**: a runnable script for everything in the notes
 
-> Work in progress. Content is being added step by step.
+```bash
+python 01_basics/examples.py
+```
+
+Part 1 needs only Python 3.10 or newer. No libraries.
+
+## Part 1: Python
+
+| # | Topic | Status |
+|---|-------|--------|
+| 01 | [Basics](01_basics/): variables, types, operators, truthy/falsy, conversion | ✅ |
+| 02 | Strings: slicing, methods, f-strings | ⏳ |
+| 03 | Collections: list, tuple, set, dict | ⏳ |
+| 04 | Control flow: if, loops, comprehensions, match | ⏳ |
+| 05 | Functions: args, `*args`/`**kwargs`, scope, lambda, closures | ⏳ |
+| 06 | OOP: classes, inheritance, dunder methods, dataclasses | ⏳ |
+| 07 | Errors & files: exceptions, `with`, JSON, CSV | ⏳ |
+| 08 | Modules & venv: imports, packages, pip | ⏳ |
+| 09 | Advanced: iterators, generators, decorators, type hints | ⏳ |
+| 10 | Mini project: expense tracker | ⏳ |
+
+## Part 2: Data Science (after Python)
+
+NumPy → Pandas → Matplotlib/Seaborn → Statistics → EDA project → Machine Learning (scikit-learn) → Capstone
+
+## How to study
+
+1. Read the topic's `README.md`.
+2. Run `examples.py` and compare the output with the code.
+3. Change the code and break it on purpose to see the errors.
+4. Answer the interview questions **out loud** before reading the answers.
+5. Do the practice tasks.
