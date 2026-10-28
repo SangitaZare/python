@@ -1,0 +1,298 @@
+order_id,order_date,customer,city,product_id,quantity,payment_method,product,category,price,revenue,month,weekday,order_size,is_big_order
+1001,2026-06-25,Dev,Pune,P07,3,UPI,Coffee Mug,Home,349,1047,2026-06,Thursday,Medium,No
+1002,2026-01-23,Priya,Delhi,P12,1,UPI,Denim Jacket,Clothing,2499,2499,2026-01,Friday,Large,No
+1003,2026-02-19,Isha,Mumbai,P04,1,UPI,Python Crash Course,Books,899,899,2026-02,Thursday,Medium,No
+1004,2026-05-12,Ravi,Mumbai,P04,1,Card,Python Crash Course,Books,899,899,2026-05,Tuesday,Medium,No
+1005,2026-03-16,Priya,Mumbai,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-03,Monday,Large,Yes
+1006,2026-02-02,Sana,Bengaluru,P12,3,Card,Denim Jacket,Clothing,2499,7497,2026-02,Monday,Large,Yes
+1007,2026-06-16,Dev,Hyderabad,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-06,Tuesday,Large,Yes
+1008,2026-05-23,Meera,Pune,P11,2,UPI,Running Shoes,Clothing,2999,5998,2026-05,Saturday,Large,Yes
+1009,2026-02-22,Rohan,Delhi,P04,3,UPI,Python Crash Course,Books,899,2697,2026-02,Sunday,Large,No
+1010,2026-01-25,Asha,Pune,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-01,Sunday,Large,No
+1011,2026-06-08,Dev,Hyderabad,P02,1,UPI,Phone Charger,Electronics,499,499,2026-06,Monday,Small,No
+1012,2026-04-28,Ravi,Hyderabad,P02,2,UPI,Phone Charger,Electronics,499,998,2026-04,Tuesday,Medium,No
+1013,2026-06-21,Vikram,Delhi,P09,3,UPI,Cushion Cover,Home,399,1197,2026-06,Sunday,Medium,No
+1014,2026-04-19,Vikram,Bengaluru,P04,1,Card,Python Crash Course,Books,899,899,2026-04,Sunday,Medium,No
+1015,2026-02-24,Arjun,Mumbai,P05,3,UPI,Data Science Handbook,Books,1299,3897,2026-02,Tuesday,Large,Yes
+1016,2026-02-03,Sana,Bengaluru,P02,2,Card,Phone Charger,Electronics,499,998,2026-02,Tuesday,Medium,No
+1017,2026-04-01,Asha,Mumbai,P02,2,Card,Phone Charger,Electronics,499,998,2026-04,Wednesday,Medium,No
+1018,2026-05-16,Sana,Mumbai,P10,1,UPI,Cotton Kurta,Clothing,1499,1499,2026-05,Saturday,Medium,No
+1019,2026-01-02,Isha,Pune,P07,2,Card,Coffee Mug,Home,349,698,2026-01,Friday,Medium,No
+1020,2026-03-28,Vikram,Pune,P09,1,UPI,Cushion Cover,Home,399,399,2026-03,Saturday,Small,No
+1021,2026-03-30,Ravi,Mumbai,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-03,Monday,Medium,No
+1022,2026-05-14,Sana,Mumbai,P06,3,Cash on Delivery,Notebook Pack,Books,249,747,2026-05,Thursday,Medium,No
+1023,2026-02-16,Ravi,Delhi,P11,2,Card,Running Shoes,Clothing,2999,5998,2026-02,Monday,Large,Yes
+1024,2026-06-13,Dev,Pune,P11,3,Cash on Delivery,Running Shoes,Clothing,2999,8997,2026-06,Saturday,Large,Yes
+1025,2026-03-15,Kabir,Mumbai,P07,1,UPI,Coffee Mug,Home,349,349,2026-03,Sunday,Small,No
+1026,2026-06-06,Neha,Mumbai,P08,2,UPI,Desk Lamp,Home,1199,2398,2026-06,Saturday,Large,No
+1027,2026-06-06,Priya,Pune,P01,3,Cash on Delivery,Wireless Earbuds,Electronics,1999,5997,2026-06,Saturday,Large,Yes
+1028,2026-06-15,Rohan,Delhi,P04,1,UPI,Python Crash Course,Books,899,899,2026-06,Monday,Medium,No
+1029,2026-03-02,Neha,Mumbai,P06,1,UPI,Notebook Pack,Books,249,249,2026-03,Monday,Small,No
+1030,2026-06-08,Dev,Pune,P05,1,Cash on Delivery,Data Science Handbook,Books,1299,1299,2026-06,Monday,Medium,No
+1031,2026-02-24,Rohan,Pune,P03,2,UPI,Smart Watch,Electronics,4999,9998,2026-02,Tuesday,Large,Yes
+1032,2026-03-29,Neha,Bengaluru,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-03,Sunday,Medium,No
+1033,2026-02-13,Asha,Bengaluru,P02,1,Unknown,Phone Charger,Electronics,499,499,2026-02,Friday,Small,No
+1034,2026-04-13,Meera,Delhi,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-04,Monday,Large,No
+1035,2026-01-20,Arjun,Mumbai,P02,2,UPI,Phone Charger,Electronics,499,998,2026-01,Tuesday,Medium,No
+1036,2026-06-25,Dev,Hyderabad,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Thursday,Medium,No
+1037,2026-01-04,Neha,Delhi,P06,3,UPI,Notebook Pack,Books,249,747,2026-01,Sunday,Medium,No
+1038,2026-04-15,Asha,Mumbai,P09,3,UPI,Cushion Cover,Home,399,1197,2026-04,Wednesday,Medium,No
+1039,2026-06-08,Meera,Hyderabad,P04,1,UPI,Python Crash Course,Books,899,899,2026-06,Monday,Medium,No
+1040,2026-02-03,Rohan,Mumbai,P04,1,Card,Python Crash Course,Books,899,899,2026-02,Tuesday,Medium,No
+1041,2026-05-02,Ravi,Delhi,P07,3,UPI,Coffee Mug,Home,349,1047,2026-05,Saturday,Medium,No
+1042,2026-04-21,Dev,Mumbai,P12,1,UPI,Denim Jacket,Clothing,2499,2499,2026-04,Tuesday,Large,No
+1043,2026-05-27,Meera,Pune,P08,2,UPI,Desk Lamp,Home,1199,2398,2026-05,Wednesday,Large,No
+1044,2026-05-18,Priya,Delhi,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-05,Monday,Large,Yes
+1045,2026-06-06,Vikram,Pune,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-06,Saturday,Large,Yes
+1046,2026-06-01,Rohan,Mumbai,P02,2,UPI,Phone Charger,Electronics,499,998,2026-06,Monday,Medium,No
+1047,2026-04-30,Neha,Delhi,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-04,Thursday,Medium,No
+1048,2026-03-20,Arjun,Pune,P02,1,Cash on Delivery,Phone Charger,Electronics,499,499,2026-03,Friday,Small,No
+1049,2026-01-28,Meera,Delhi,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-01,Wednesday,Large,No
+1050,2026-02-10,Kabir,Mumbai,P03,2,Card,Smart Watch,Electronics,4999,9998,2026-02,Tuesday,Large,Yes
+1051,2026-06-13,Arjun,Delhi,P05,3,Card,Data Science Handbook,Books,1299,3897,2026-06,Saturday,Large,Yes
+1052,2026-03-03,Neha,Mumbai,P02,2,UPI,Phone Charger,Electronics,499,998,2026-03,Tuesday,Medium,No
+1053,2026-06-16,Sana,Mumbai,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-06,Tuesday,Large,Yes
+1054,2026-03-11,Priya,Mumbai,P06,2,Cash on Delivery,Notebook Pack,Books,249,498,2026-03,Wednesday,Small,No
+1055,2026-01-15,Dev,Mumbai,P05,1,Cash on Delivery,Data Science Handbook,Books,1299,1299,2026-01,Thursday,Medium,No
+1057,2026-03-26,Arjun,Delhi,P09,1,Cash on Delivery,Cushion Cover,Home,399,399,2026-03,Thursday,Small,No
+1058,2026-01-27,Vikram,Mumbai,P12,2,Card,Denim Jacket,Clothing,2499,4998,2026-01,Tuesday,Large,Yes
+1059,2026-04-03,Arjun,Pune,P02,3,Card,Phone Charger,Electronics,499,1497,2026-04,Friday,Medium,No
+1060,2026-06-02,Dev,Bengaluru,P02,1,UPI,Phone Charger,Electronics,499,499,2026-06,Tuesday,Small,No
+1061,2026-04-01,Neha,Mumbai,P09,1,Card,Cushion Cover,Home,399,399,2026-04,Wednesday,Small,No
+1062,2026-04-15,Rohan,Mumbai,P05,2,Unknown,Data Science Handbook,Books,1299,2598,2026-04,Wednesday,Large,No
+1063,2026-06-30,Dev,Mumbai,P01,2,Unknown,Wireless Earbuds,Electronics,1999,3998,2026-06,Tuesday,Large,Yes
+1064,2026-02-21,Priya,Pune,P01,3,Cash on Delivery,Wireless Earbuds,Electronics,1999,5997,2026-02,Saturday,Large,Yes
+1065,2026-04-23,Isha,Hyderabad,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-04,Thursday,Large,No
+1066,2026-06-29,Sana,Hyderabad,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Monday,Medium,No
+1067,2026-04-15,Dev,Pune,P06,1,Cash on Delivery,Notebook Pack,Books,249,249,2026-04,Wednesday,Small,No
+1068,2026-05-01,Neha,Mumbai,P02,2,Card,Phone Charger,Electronics,499,998,2026-05,Friday,Medium,No
+1069,2026-04-24,Sana,Delhi,P11,2,Cash on Delivery,Running Shoes,Clothing,2999,5998,2026-04,Friday,Large,Yes
+1070,2026-01-30,Kabir,Mumbai,P04,1,Card,Python Crash Course,Books,899,899,2026-01,Friday,Medium,No
+1071,2026-05-21,Arjun,Delhi,P04,2,UPI,Python Crash Course,Books,899,1798,2026-05,Thursday,Medium,No
+1072,2026-06-18,Vikram,Mumbai,P09,1,UPI,Cushion Cover,Home,399,399,2026-06,Thursday,Small,No
+1073,2026-06-20,Meera,Bengaluru,P10,2,UPI,Cotton Kurta,Clothing,1499,2998,2026-06,Saturday,Large,No
+1074,2026-04-30,Vikram,Hyderabad,P01,2,Card,Wireless Earbuds,Electronics,1999,3998,2026-04,Thursday,Large,Yes
+1075,2026-03-20,Dev,Bengaluru,P06,1,Card,Notebook Pack,Books,249,249,2026-03,Friday,Small,No
+1076,2026-05-14,Dev,Delhi,P04,1,Cash on Delivery,Python Crash Course,Books,899,899,2026-05,Thursday,Medium,No
+1077,2026-06-23,Ravi,Pune,P12,2,Cash on Delivery,Denim Jacket,Clothing,2499,4998,2026-06,Tuesday,Large,Yes
+1078,2026-06-28,Asha,Hyderabad,P04,1,UPI,Python Crash Course,Books,899,899,2026-06,Sunday,Medium,No
+1079,2026-03-07,Isha,Pune,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-03,Saturday,Large,Yes
+1080,2026-06-22,Neha,Pune,P07,2,Cash on Delivery,Coffee Mug,Home,349,698,2026-06,Monday,Medium,No
+1081,2026-05-23,Neha,Pune,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-05,Saturday,Large,No
+1082,2026-06-13,Asha,Delhi,P07,2,UPI,Coffee Mug,Home,349,698,2026-06,Saturday,Medium,No
+1083,2026-02-10,Rohan,Mumbai,P06,1,Cash on Delivery,Notebook Pack,Books,249,249,2026-02,Tuesday,Small,No
+1084,2026-06-27,Arjun,Pune,P02,2,Cash on Delivery,Phone Charger,Electronics,499,998,2026-06,Saturday,Medium,No
+1085,2026-05-26,Isha,Pune,P02,3,Unknown,Phone Charger,Electronics,499,1497,2026-05,Tuesday,Medium,No
+1086,2026-02-10,Arjun,Delhi,P09,3,UPI,Cushion Cover,Home,399,1197,2026-02,Tuesday,Medium,No
+1087,2026-04-23,Neha,Mumbai,P02,1,UPI,Phone Charger,Electronics,499,499,2026-04,Thursday,Small,No
+1088,2026-01-29,Meera,Delhi,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-01,Thursday,Large,No
+1089,2026-05-22,Vikram,Delhi,P12,1,Cash on Delivery,Denim Jacket,Clothing,2499,2499,2026-05,Friday,Large,No
+1090,2026-05-02,Dev,Bengaluru,P07,3,UPI,Coffee Mug,Home,349,1047,2026-05,Saturday,Medium,No
+1091,2026-04-29,Isha,Hyderabad,P03,3,Cash on Delivery,Smart Watch,Electronics,4999,14997,2026-04,Wednesday,Large,Yes
+1092,2026-06-09,Priya,Pune,P11,3,Cash on Delivery,Running Shoes,Clothing,2999,8997,2026-06,Tuesday,Large,Yes
+1093,2026-05-29,Asha,Hyderabad,P09,3,Card,Cushion Cover,Home,399,1197,2026-05,Friday,Medium,No
+1094,2026-01-24,Isha,Bengaluru,P09,1,UPI,Cushion Cover,Home,399,399,2026-01,Saturday,Small,No
+1095,2026-05-28,Neha,Delhi,P02,1,Cash on Delivery,Phone Charger,Electronics,499,499,2026-05,Thursday,Small,No
+1096,2026-04-23,Vikram,Delhi,P07,1,Cash on Delivery,Coffee Mug,Home,349,349,2026-04,Thursday,Small,No
+1097,2026-02-15,Kabir,Mumbai,P10,1,UPI,Cotton Kurta,Clothing,1499,1499,2026-02,Sunday,Medium,No
+1098,2026-03-19,Meera,Hyderabad,P02,1,Cash on Delivery,Phone Charger,Electronics,499,499,2026-03,Thursday,Small,No
+1099,2026-04-17,Sana,Pune,P02,2,UPI,Phone Charger,Electronics,499,998,2026-04,Friday,Medium,No
+1100,2026-06-11,Kabir,Delhi,P05,2,UPI,Data Science Handbook,Books,1299,2598,2026-06,Thursday,Large,No
+1101,2026-06-14,Meera,Bengaluru,P10,1,UPI,Cotton Kurta,Clothing,1499,1499,2026-06,Sunday,Medium,No
+1102,2026-01-26,Vikram,Pune,P01,2,Cash on Delivery,Wireless Earbuds,Electronics,1999,3998,2026-01,Monday,Large,Yes
+1103,2026-04-06,Ravi,Delhi,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-04,Monday,Medium,No
+1104,2026-06-09,Priya,Mumbai,P07,1,UPI,Coffee Mug,Home,349,349,2026-06,Tuesday,Small,No
+1105,2026-05-03,Arjun,Bengaluru,P08,1,Cash on Delivery,Desk Lamp,Home,1199,1199,2026-05,Sunday,Medium,No
+1106,2026-06-10,Vikram,Pune,P02,3,Cash on Delivery,Phone Charger,Electronics,499,1497,2026-06,Wednesday,Medium,No
+1107,2026-05-02,Sana,Delhi,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-05,Saturday,Large,No
+1108,2026-02-22,Isha,Bengaluru,P02,2,UPI,Phone Charger,Electronics,499,998,2026-02,Sunday,Medium,No
+1109,2026-04-16,Meera,Delhi,P10,1,UPI,Cotton Kurta,Clothing,1499,1499,2026-04,Thursday,Medium,No
+1110,2026-04-18,Meera,Mumbai,P01,1,Card,Wireless Earbuds,Electronics,1999,1999,2026-04,Saturday,Medium,No
+1111,2026-06-16,Priya,Delhi,P08,1,Cash on Delivery,Desk Lamp,Home,1199,1199,2026-06,Tuesday,Medium,No
+1112,2026-03-21,Arjun,Mumbai,P03,2,UPI,Smart Watch,Electronics,4999,9998,2026-03,Saturday,Large,Yes
+1113,2026-02-25,Vikram,Delhi,P04,3,UPI,Python Crash Course,Books,899,2697,2026-02,Wednesday,Large,No
+1114,2026-05-26,Priya,Pune,P10,2,Card,Cotton Kurta,Clothing,1499,2998,2026-05,Tuesday,Large,No
+1115,2026-04-02,Dev,Pune,P04,2,UPI,Python Crash Course,Books,899,1798,2026-04,Thursday,Medium,No
+1116,2026-04-13,Sana,Pune,P06,1,Card,Notebook Pack,Books,249,249,2026-04,Monday,Small,No
+1117,2026-06-27,Sana,Pune,P07,1,UPI,Coffee Mug,Home,349,349,2026-06,Saturday,Small,No
+1118,2026-05-14,Sana,Delhi,P01,2,Card,Wireless Earbuds,Electronics,1999,3998,2026-05,Thursday,Large,Yes
+1119,2026-05-14,Sana,Pune,P08,2,Cash on Delivery,Desk Lamp,Home,1199,2398,2026-05,Thursday,Large,No
+1120,2026-06-21,Dev,Mumbai,P12,2,Card,Denim Jacket,Clothing,2499,4998,2026-06,Sunday,Large,Yes
+1121,2026-05-21,Isha,Delhi,P04,2,UPI,Python Crash Course,Books,899,1798,2026-05,Thursday,Medium,No
+1122,2026-06-24,Kabir,Bengaluru,P10,3,UPI,Cotton Kurta,Clothing,1499,4497,2026-06,Wednesday,Large,Yes
+1123,2026-05-08,Rohan,Mumbai,P02,2,UPI,Phone Charger,Electronics,499,998,2026-05,Friday,Medium,No
+1124,2026-04-30,Sana,Mumbai,P06,2,UPI,Notebook Pack,Books,249,498,2026-04,Thursday,Small,No
+1125,2026-03-07,Meera,Mumbai,P02,1,Cash on Delivery,Phone Charger,Electronics,499,499,2026-03,Saturday,Small,No
+1126,2026-02-24,Dev,Pune,P02,1,UPI,Phone Charger,Electronics,499,499,2026-02,Tuesday,Small,No
+1127,2026-04-21,Kabir,Delhi,P07,1,Card,Coffee Mug,Home,349,349,2026-04,Tuesday,Small,No
+1128,2026-01-16,Kabir,Bengaluru,P01,1,Card,Wireless Earbuds,Electronics,1999,1999,2026-01,Friday,Medium,No
+1129,2026-02-11,Isha,Mumbai,P12,2,Cash on Delivery,Denim Jacket,Clothing,2499,4998,2026-02,Wednesday,Large,Yes
+1130,2026-05-20,Asha,Delhi,P08,1,Cash on Delivery,Desk Lamp,Home,1199,1199,2026-05,Wednesday,Medium,No
+1131,2026-05-15,Isha,Hyderabad,P03,3,Cash on Delivery,Smart Watch,Electronics,4999,14997,2026-05,Friday,Large,Yes
+1132,2026-01-08,Ravi,Delhi,P07,1,UPI,Coffee Mug,Home,349,349,2026-01,Thursday,Small,No
+1133,2026-02-09,Vikram,Delhi,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-02,Monday,Large,Yes
+1134,2026-05-05,Vikram,Bengaluru,P07,2,Card,Coffee Mug,Home,349,698,2026-05,Tuesday,Medium,No
+1135,2026-03-30,Rohan,Pune,P10,1,Card,Cotton Kurta,Clothing,1499,1499,2026-03,Monday,Medium,No
+1136,2026-05-01,Vikram,Delhi,P10,1,Unknown,Cotton Kurta,Clothing,1499,1499,2026-05,Friday,Medium,No
+1137,2026-02-02,Ravi,Delhi,P02,1,UPI,Phone Charger,Electronics,499,499,2026-02,Monday,Small,No
+1138,2026-06-11,Kabir,Bengaluru,P02,1,UPI,Phone Charger,Electronics,499,499,2026-06,Thursday,Small,No
+1139,2026-03-02,Sana,Mumbai,P07,1,UPI,Coffee Mug,Home,349,349,2026-03,Monday,Small,No
+1140,2026-03-24,Dev,Delhi,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-03,Tuesday,Large,Yes
+1141,2026-04-07,Kabir,Delhi,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-04,Tuesday,Large,No
+1142,2026-05-01,Meera,Mumbai,P07,2,UPI,Coffee Mug,Home,349,698,2026-05,Friday,Medium,No
+1143,2026-06-28,Ravi,Pune,P06,1,Card,Notebook Pack,Books,249,249,2026-06,Sunday,Small,No
+1144,2026-02-20,Priya,Mumbai,P09,1,Card,Cushion Cover,Home,399,399,2026-02,Friday,Small,No
+1145,2026-02-09,Rohan,Hyderabad,P11,1,Card,Running Shoes,Clothing,2999,2999,2026-02,Monday,Large,No
+1146,2026-02-05,Meera,Pune,P05,1,Cash on Delivery,Data Science Handbook,Books,1299,1299,2026-02,Thursday,Medium,No
+1147,2026-05-30,Rohan,Pune,P06,1,UPI,Notebook Pack,Books,249,249,2026-05,Saturday,Small,No
+1148,2026-03-26,Vikram,Mumbai,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-03,Thursday,Medium,No
+1149,2026-06-20,Kabir,Pune,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-06,Saturday,Large,No
+1150,2026-01-18,Asha,Pune,P11,3,Cash on Delivery,Running Shoes,Clothing,2999,8997,2026-01,Sunday,Large,Yes
+1151,2026-04-21,Meera,Hyderabad,P01,2,Cash on Delivery,Wireless Earbuds,Electronics,1999,3998,2026-04,Tuesday,Large,Yes
+1152,2026-05-27,Rohan,Mumbai,P04,2,UPI,Python Crash Course,Books,899,1798,2026-05,Wednesday,Medium,No
+1153,2026-04-17,Neha,Delhi,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-04,Friday,Large,No
+1154,2026-03-30,Isha,Pune,P07,1,Cash on Delivery,Coffee Mug,Home,349,349,2026-03,Monday,Small,No
+1155,2026-06-04,Neha,Delhi,P04,1,UPI,Python Crash Course,Books,899,899,2026-06,Thursday,Medium,No
+1156,2026-04-17,Rohan,Pune,P04,1,UPI,Python Crash Course,Books,899,899,2026-04,Friday,Medium,No
+1157,2026-06-18,Dev,Bengaluru,P07,2,UPI,Coffee Mug,Home,349,698,2026-06,Thursday,Medium,No
+1158,2026-02-26,Sana,Mumbai,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-02,Thursday,Medium,No
+1159,2026-05-02,Priya,Pune,P02,1,UPI,Phone Charger,Electronics,499,499,2026-05,Saturday,Small,No
+1160,2026-05-08,Kabir,Bengaluru,P05,2,UPI,Data Science Handbook,Books,1299,2598,2026-05,Friday,Large,No
+1161,2026-06-18,Isha,Delhi,P10,1,Card,Cotton Kurta,Clothing,1499,1499,2026-06,Thursday,Medium,No
+1162,2026-01-24,Dev,Mumbai,P10,3,UPI,Cotton Kurta,Clothing,1499,4497,2026-01,Saturday,Large,Yes
+1163,2026-06-03,Kabir,Pune,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Wednesday,Medium,No
+1164,2026-05-16,Arjun,Bengaluru,P10,2,UPI,Cotton Kurta,Clothing,1499,2998,2026-05,Saturday,Large,No
+1165,2026-06-11,Dev,Mumbai,P08,1,Card,Desk Lamp,Home,1199,1199,2026-06,Thursday,Medium,No
+1166,2026-05-04,Isha,Pune,P10,2,Cash on Delivery,Cotton Kurta,Clothing,1499,2998,2026-05,Monday,Large,No
+1167,2026-04-08,Vikram,Hyderabad,P04,1,Cash on Delivery,Python Crash Course,Books,899,899,2026-04,Wednesday,Medium,No
+1168,2026-06-02,Meera,Pune,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-06,Tuesday,Medium,No
+1169,2026-03-07,Isha,Pune,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-03,Saturday,Large,Yes
+1170,2026-01-15,Asha,Mumbai,P07,2,UPI,Coffee Mug,Home,349,698,2026-01,Thursday,Medium,No
+1171,2026-05-26,Sana,Pune,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-05,Tuesday,Medium,No
+1172,2026-06-04,Asha,Mumbai,P10,1,UPI,Cotton Kurta,Clothing,1499,1499,2026-06,Thursday,Medium,No
+1173,2026-06-06,Vikram,Delhi,P02,1,Card,Phone Charger,Electronics,499,499,2026-06,Saturday,Small,No
+1174,2026-04-07,Sana,Hyderabad,P10,2,Card,Cotton Kurta,Clothing,1499,2998,2026-04,Tuesday,Large,No
+1175,2026-05-23,Ravi,Hyderabad,P04,3,UPI,Python Crash Course,Books,899,2697,2026-05,Saturday,Large,No
+1176,2026-05-20,Asha,Pune,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-05,Wednesday,Medium,No
+1177,2026-03-08,Dev,Bengaluru,P04,1,UPI,Python Crash Course,Books,899,899,2026-03,Sunday,Medium,No
+1178,2026-05-28,Rohan,Pune,P01,2,Card,Wireless Earbuds,Electronics,1999,3998,2026-05,Thursday,Large,Yes
+1179,2026-06-26,Neha,Bengaluru,P02,1,UPI,Phone Charger,Electronics,499,499,2026-06,Friday,Small,No
+1180,2026-03-20,Rohan,Pune,P02,1,UPI,Phone Charger,Electronics,499,499,2026-03,Friday,Small,No
+1181,2026-03-05,Vikram,Delhi,P12,1,Card,Denim Jacket,Clothing,2499,2499,2026-03,Thursday,Large,No
+1182,2026-04-30,Rohan,Delhi,P05,1,UPI,Data Science Handbook,Books,1299,1299,2026-04,Thursday,Medium,No
+1183,2026-06-14,Vikram,Bengaluru,P06,2,Card,Notebook Pack,Books,249,498,2026-06,Sunday,Small,No
+1184,2026-05-04,Arjun,Hyderabad,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-05,Monday,Medium,No
+1185,2026-06-26,Asha,Pune,P01,2,Card,Wireless Earbuds,Electronics,1999,3998,2026-06,Friday,Large,Yes
+1186,2026-06-20,Asha,Delhi,P07,1,UPI,Coffee Mug,Home,349,349,2026-06,Saturday,Small,No
+1187,2026-05-20,Vikram,Delhi,P04,1,Card,Python Crash Course,Books,899,899,2026-05,Wednesday,Medium,No
+1188,2026-05-19,Meera,Pune,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-05,Tuesday,Large,Yes
+1189,2026-02-13,Ravi,Delhi,P02,1,UPI,Phone Charger,Electronics,499,499,2026-02,Friday,Small,No
+1190,2026-03-18,Priya,Mumbai,P09,2,Cash on Delivery,Cushion Cover,Home,399,798,2026-03,Wednesday,Medium,No
+1191,2026-06-04,Ravi,Pune,P12,2,Cash on Delivery,Denim Jacket,Clothing,2499,4998,2026-06,Thursday,Large,Yes
+1192,2026-03-29,Sana,Mumbai,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-03,Sunday,Medium,No
+1193,2026-02-23,Kabir,Mumbai,P04,1,UPI,Python Crash Course,Books,899,899,2026-02,Monday,Medium,No
+1194,2026-01-17,Arjun,Delhi,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-01,Saturday,Large,Yes
+1195,2026-02-22,Arjun,Delhi,P02,3,Cash on Delivery,Phone Charger,Electronics,499,1497,2026-02,Sunday,Medium,No
+1196,2026-04-29,Isha,Mumbai,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-04,Wednesday,Medium,No
+1197,2026-06-20,Rohan,Hyderabad,P10,3,UPI,Cotton Kurta,Clothing,1499,4497,2026-06,Saturday,Large,Yes
+1198,2026-03-27,Sana,Pune,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-03,Friday,Large,Yes
+1199,2026-06-01,Meera,Pune,P10,2,UPI,Cotton Kurta,Clothing,1499,2998,2026-06,Monday,Large,No
+1200,2026-02-02,Asha,Mumbai,P01,3,Cash on Delivery,Wireless Earbuds,Electronics,1999,5997,2026-02,Monday,Large,Yes
+1201,2026-06-06,Priya,Bengaluru,P06,1,UPI,Notebook Pack,Books,249,249,2026-06,Saturday,Small,No
+1203,2026-04-16,Arjun,Pune,P04,2,UPI,Python Crash Course,Books,899,1798,2026-04,Thursday,Medium,No
+1204,2026-04-08,Dev,Delhi,P10,3,Cash on Delivery,Cotton Kurta,Clothing,1499,4497,2026-04,Wednesday,Large,Yes
+1205,2026-06-18,Isha,Bengaluru,P09,1,UPI,Cushion Cover,Home,399,399,2026-06,Thursday,Small,No
+1206,2026-02-23,Arjun,Bengaluru,P07,3,Card,Coffee Mug,Home,349,1047,2026-02,Monday,Medium,No
+1207,2026-06-20,Sana,Pune,P04,3,UPI,Python Crash Course,Books,899,2697,2026-06,Saturday,Large,No
+1208,2026-06-19,Kabir,Pune,P02,3,UPI,Phone Charger,Electronics,499,1497,2026-06,Friday,Medium,No
+1209,2026-06-25,Dev,Bengaluru,P07,2,UPI,Coffee Mug,Home,349,698,2026-06,Thursday,Medium,No
+1210,2026-06-15,Isha,Bengaluru,P02,3,UPI,Phone Charger,Electronics,499,1497,2026-06,Monday,Medium,No
+1211,2026-04-20,Priya,Pune,P10,3,UPI,Cotton Kurta,Clothing,1499,4497,2026-04,Monday,Large,Yes
+1212,2026-05-15,Neha,Delhi,P10,3,UPI,Cotton Kurta,Clothing,1499,4497,2026-05,Friday,Large,Yes
+1213,2026-04-21,Vikram,Pune,P06,2,Cash on Delivery,Notebook Pack,Books,249,498,2026-04,Tuesday,Small,No
+1214,2026-03-10,Sana,Mumbai,P08,1,Card,Desk Lamp,Home,1199,1199,2026-03,Tuesday,Medium,No
+1215,2026-06-29,Ravi,Pune,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Monday,Medium,No
+1216,2026-01-07,Priya,Pune,P04,1,Unknown,Python Crash Course,Books,899,899,2026-01,Wednesday,Medium,No
+1217,2026-02-28,Arjun,Pune,P02,2,Card,Phone Charger,Electronics,499,998,2026-02,Saturday,Medium,No
+1218,2026-06-21,Isha,Hyderabad,P05,3,Card,Data Science Handbook,Books,1299,3897,2026-06,Sunday,Large,Yes
+1219,2026-06-24,Vikram,Delhi,P06,2,Card,Notebook Pack,Books,249,498,2026-06,Wednesday,Small,No
+1220,2026-03-06,Isha,Pune,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-03,Friday,Medium,No
+1221,2026-06-30,Ravi,Mumbai,P08,1,Cash on Delivery,Desk Lamp,Home,1199,1199,2026-06,Tuesday,Medium,No
+1222,2026-06-04,Rohan,Mumbai,P01,3,Cash on Delivery,Wireless Earbuds,Electronics,1999,5997,2026-06,Thursday,Large,Yes
+1223,2026-05-30,Dev,Delhi,P11,1,UPI,Running Shoes,Clothing,2999,2999,2026-05,Saturday,Large,No
+1224,2026-04-28,Rohan,Mumbai,P02,3,UPI,Phone Charger,Electronics,499,1497,2026-04,Tuesday,Medium,No
+1225,2026-03-28,Kabir,Mumbai,P02,1,UPI,Phone Charger,Electronics,499,499,2026-03,Saturday,Small,No
+1226,2026-01-03,Ravi,Mumbai,P01,2,Cash on Delivery,Wireless Earbuds,Electronics,1999,3998,2026-01,Saturday,Large,Yes
+1227,2026-03-23,Kabir,Delhi,P06,3,Cash on Delivery,Notebook Pack,Books,249,747,2026-03,Monday,Medium,No
+1228,2026-03-24,Neha,Hyderabad,P11,1,Card,Running Shoes,Clothing,2999,2999,2026-03,Tuesday,Large,No
+1229,2026-01-21,Kabir,Delhi,P07,1,Card,Coffee Mug,Home,349,349,2026-01,Wednesday,Small,No
+1230,2026-01-22,Priya,Bengaluru,P06,2,UPI,Notebook Pack,Books,249,498,2026-01,Thursday,Small,No
+1231,2026-03-03,Isha,Pune,P10,3,Card,Cotton Kurta,Clothing,1499,4497,2026-03,Tuesday,Large,Yes
+1232,2026-04-15,Ravi,Pune,P12,3,UPI,Denim Jacket,Clothing,2499,7497,2026-04,Wednesday,Large,Yes
+1233,2026-05-29,Rohan,Bengaluru,P06,1,Card,Notebook Pack,Books,249,249,2026-05,Friday,Small,No
+1234,2026-05-01,Vikram,Delhi,P09,1,UPI,Cushion Cover,Home,399,399,2026-05,Friday,Small,No
+1235,2026-04-23,Sana,Mumbai,P12,1,UPI,Denim Jacket,Clothing,2499,2499,2026-04,Thursday,Large,No
+1236,2026-06-02,Ravi,Mumbai,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-06,Tuesday,Large,Yes
+1237,2026-06-09,Vikram,Pune,P07,2,UPI,Coffee Mug,Home,349,698,2026-06,Tuesday,Medium,No
+1238,2026-04-05,Ravi,Delhi,P08,2,UPI,Desk Lamp,Home,1199,2398,2026-04,Sunday,Large,No
+1239,2026-05-04,Dev,Mumbai,P06,2,Card,Notebook Pack,Books,249,498,2026-05,Monday,Small,No
+1240,2026-06-20,Neha,Mumbai,P03,3,Card,Smart Watch,Electronics,4999,14997,2026-06,Saturday,Large,Yes
+1241,2026-01-21,Ravi,Bengaluru,P03,1,UPI,Smart Watch,Electronics,4999,4999,2026-01,Wednesday,Large,Yes
+1242,2026-05-04,Vikram,Hyderabad,P11,1,Cash on Delivery,Running Shoes,Clothing,2999,2999,2026-05,Monday,Large,No
+1243,2026-05-30,Vikram,Hyderabad,P11,1,Card,Running Shoes,Clothing,2999,2999,2026-05,Saturday,Large,No
+1244,2026-04-03,Rohan,Mumbai,P02,3,Card,Phone Charger,Electronics,499,1497,2026-04,Friday,Medium,No
+1245,2026-05-26,Arjun,Pune,P09,1,UPI,Cushion Cover,Home,399,399,2026-05,Tuesday,Small,No
+1246,2026-06-08,Rohan,Pune,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Monday,Medium,No
+1247,2026-05-28,Vikram,Mumbai,P05,3,Card,Data Science Handbook,Books,1299,3897,2026-05,Thursday,Large,Yes
+1248,2026-04-22,Ravi,Pune,P04,2,UPI,Python Crash Course,Books,899,1798,2026-04,Wednesday,Medium,No
+1249,2026-05-22,Asha,Pune,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-05,Friday,Medium,No
+1250,2026-05-20,Neha,Pune,P08,3,Cash on Delivery,Desk Lamp,Home,1199,3597,2026-05,Wednesday,Large,Yes
+1251,2026-03-26,Sana,Hyderabad,P05,1,UPI,Data Science Handbook,Books,1299,1299,2026-03,Thursday,Medium,No
+1252,2026-01-06,Neha,Pune,P08,2,Card,Desk Lamp,Home,1199,2398,2026-01,Tuesday,Large,No
+1253,2026-06-24,Asha,Pune,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-06,Wednesday,Medium,No
+1254,2026-04-10,Asha,Hyderabad,P12,1,Unknown,Denim Jacket,Clothing,2499,2499,2026-04,Friday,Large,No
+1255,2026-03-10,Rohan,Delhi,P08,1,UPI,Desk Lamp,Home,1199,1199,2026-03,Tuesday,Medium,No
+1256,2026-02-28,Vikram,Delhi,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-02,Saturday,Large,Yes
+1257,2026-03-29,Neha,Mumbai,P02,2,Card,Phone Charger,Electronics,499,998,2026-03,Sunday,Medium,No
+1258,2026-04-29,Meera,Hyderabad,P07,2,UPI,Coffee Mug,Home,349,698,2026-04,Wednesday,Medium,No
+1259,2026-04-19,Kabir,Hyderabad,P01,1,Card,Wireless Earbuds,Electronics,1999,1999,2026-04,Sunday,Medium,No
+1260,2026-03-26,Arjun,Delhi,P05,1,UPI,Data Science Handbook,Books,1299,1299,2026-03,Thursday,Medium,No
+1262,2026-06-28,Arjun,Mumbai,P02,3,Card,Phone Charger,Electronics,499,1497,2026-06,Sunday,Medium,No
+1263,2026-01-05,Ravi,Mumbai,P01,1,Cash on Delivery,Wireless Earbuds,Electronics,1999,1999,2026-01,Monday,Medium,No
+1264,2026-06-19,Priya,Bengaluru,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-06,Friday,Large,Yes
+1265,2026-01-09,Priya,Delhi,P02,1,UPI,Phone Charger,Electronics,499,499,2026-01,Friday,Small,No
+1266,2026-04-17,Sana,Pune,P11,3,UPI,Running Shoes,Clothing,2999,8997,2026-04,Friday,Large,Yes
+1267,2026-05-31,Meera,Mumbai,P04,2,Card,Python Crash Course,Books,899,1798,2026-05,Sunday,Medium,No
+1268,2026-05-13,Vikram,Pune,P11,2,Card,Running Shoes,Clothing,2999,5998,2026-05,Wednesday,Large,Yes
+1269,2026-05-19,Vikram,Bengaluru,P01,2,Cash on Delivery,Wireless Earbuds,Electronics,1999,3998,2026-05,Tuesday,Large,Yes
+1270,2026-01-25,Meera,Mumbai,P07,1,Card,Coffee Mug,Home,349,349,2026-01,Sunday,Small,No
+1271,2026-06-12,Sana,Pune,P06,1,Cash on Delivery,Notebook Pack,Books,249,249,2026-06,Friday,Small,No
+1272,2026-05-10,Meera,Hyderabad,P07,2,UPI,Coffee Mug,Home,349,698,2026-05,Sunday,Medium,No
+1273,2026-06-23,Kabir,Hyderabad,P10,2,Card,Cotton Kurta,Clothing,1499,2998,2026-06,Tuesday,Large,No
+1274,2026-06-30,Arjun,Delhi,P04,2,UPI,Python Crash Course,Books,899,1798,2026-06,Tuesday,Medium,No
+1275,2026-05-27,Vikram,Mumbai,P07,2,Unknown,Coffee Mug,Home,349,698,2026-05,Wednesday,Medium,No
+1276,2026-06-03,Isha,Delhi,P02,2,UPI,Phone Charger,Electronics,499,998,2026-06,Wednesday,Medium,No
+1277,2026-06-25,Vikram,Pune,P09,1,UPI,Cushion Cover,Home,399,399,2026-06,Thursday,Small,No
+1278,2026-05-21,Priya,Pune,P06,1,Cash on Delivery,Notebook Pack,Books,249,249,2026-05,Thursday,Small,No
+1279,2026-05-04,Neha,Mumbai,P01,2,UPI,Wireless Earbuds,Electronics,1999,3998,2026-05,Monday,Large,Yes
+1280,2026-04-20,Neha,Mumbai,P03,1,Card,Smart Watch,Electronics,4999,4999,2026-04,Monday,Large,Yes
+1281,2026-04-20,Arjun,Bengaluru,P02,1,Card,Phone Charger,Electronics,499,499,2026-04,Monday,Small,No
+1282,2026-05-09,Arjun,Pune,P09,1,UPI,Cushion Cover,Home,399,399,2026-05,Saturday,Small,No
+1283,2026-05-06,Kabir,Pune,P04,2,Card,Python Crash Course,Books,899,1798,2026-05,Wednesday,Medium,No
+1284,2026-01-01,Rohan,Delhi,P06,1,Card,Notebook Pack,Books,249,249,2026-01,Thursday,Small,No
+1285,2026-02-06,Asha,Bengaluru,P07,1,Card,Coffee Mug,Home,349,349,2026-02,Friday,Small,No
+1286,2026-04-01,Isha,Bengaluru,P04,1,UPI,Python Crash Course,Books,899,899,2026-04,Wednesday,Medium,No
+1287,2026-03-08,Arjun,Delhi,P12,2,UPI,Denim Jacket,Clothing,2499,4998,2026-03,Sunday,Large,Yes
+1288,2026-05-14,Sana,Hyderabad,P09,1,UPI,Cushion Cover,Home,399,399,2026-05,Thursday,Small,No
+1289,2026-06-29,Sana,Mumbai,P07,1,Card,Coffee Mug,Home,349,349,2026-06,Monday,Small,No
+1290,2026-03-03,Priya,Bengaluru,P02,2,UPI,Phone Charger,Electronics,499,998,2026-03,Tuesday,Medium,No
+1291,2026-06-04,Meera,Mumbai,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-06,Thursday,Medium,No
+1292,2026-03-24,Vikram,Mumbai,P04,2,Card,Python Crash Course,Books,899,1798,2026-03,Tuesday,Medium,No
+1293,2026-05-22,Vikram,Hyderabad,P08,2,UPI,Desk Lamp,Home,1199,2398,2026-05,Friday,Large,No
+1294,2026-01-23,Dev,Mumbai,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-01,Friday,Medium,No
+1295,2026-05-06,Rohan,Delhi,P02,2,Cash on Delivery,Phone Charger,Electronics,499,998,2026-05,Wednesday,Medium,No
+1296,2026-04-19,Priya,Mumbai,P09,1,Card,Cushion Cover,Home,399,399,2026-04,Sunday,Small,No
+1297,2026-06-07,Kabir,Pune,P04,2,Cash on Delivery,Python Crash Course,Books,899,1798,2026-06,Sunday,Medium,No
+1298,2026-01-30,Rohan,Pune,P03,1,Card,Smart Watch,Electronics,4999,4999,2026-01,Friday,Large,Yes
+1299,2026-04-19,Neha,Mumbai,P01,3,UPI,Wireless Earbuds,Electronics,1999,5997,2026-04,Sunday,Large,Yes
+1300,2026-06-11,Vikram,Delhi,P01,1,UPI,Wireless Earbuds,Electronics,1999,1999,2026-06,Thursday,Medium,No

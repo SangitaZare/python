@@ -1,0 +1,306 @@
+order_id,order_date,customer,city,product_id,quantity,payment_method
+1001,2026-06-25,Dev,PUNE,P07,3.0,UPI
+1002,2026-01-23,Priya,New Delhi,P12,1.0,UPI
+1003,2026-02-19,Isha,mumbai ,P04,1.0,UPI
+1004,2026-05-12,Ravi,mumbai ,P04,,Card
+1004,2026-05-12,Ravi,mumbai ,P04,,Card
+1005,2026-03-16,Priya,Mumbai,P01,2.0,UPI
+1006,2026-02-02,Sana,Bengaluru,P12,3.0,Card
+1007,2026-06-16,Dev,hyderabad,P01,3.0,UPI
+1008,2026-05-23,Meera, Pune,P11,2.0,UPI
+1009,2026-02-22,Rohan,delhi,P04,3.0,UPI
+1010,2026-01-25,Asha,Pune,P12,1.0,Card
+1011,2026-06-08,Dev,Hyderabad,P02,1.0,UPI
+1012,2026-04-28,Ravi,Hyderabad,P02,2.0,UPI
+1013,2026-06-21,Vikram,Delhi,P09,3.0,UPI
+1014,2026-04-19,Vikram,Bangalore,P04,1.0,Card
+1015,2026-02-24,Arjun,mumbai ,P05,3.0,UPI
+1016,2026-02-03,Sana,Bangalore,P02,2.0,Card
+1017,2026-04-01,Asha,Mumbai,P02,2.0,Card
+1018,2026-05-16,Sana,mumbai ,P10,0.0,UPI
+1019,2026-01-02,Isha,Pune,P07,2.0,Card
+1020,2026-03-28,Vikram,Pune,P09,,UPI
+1021,2026-03-30,Ravi,mumbai ,P04,2.0,Cash on Delivery
+1022,2026-05-14,Sana,Mumbai,P06,3.0,Cash on Delivery
+1023,2026-02-16,Ravi,New Delhi,P11,2.0,Card
+1024,2026-06-13,Dev,PUNE,P11,3.0,Cash on Delivery
+1025,2026-03-15,Kabir,Mumbai,P07,1.0,UPI
+1026,2026-06-06,Neha,mumbai ,P08,2.0,UPI
+1027,2026-06-06,Priya,pune,P01,3.0,Cash on Delivery
+1028,2026-06-15,Rohan,New Delhi,P04,1.0,UPI
+1029,2026-03-02,Neha,mumbai ,P06,1.0,UPI
+1030,2026-06-08,Dev,PUNE,P05,1.0,Cash on Delivery
+1031,2026-02-24,Rohan,Pune,P03,2.0,UPI
+1032,2026-03-29,Neha,Bengaluru,P08,1.0,UPI
+1033,2026-02-13,Asha,Bengaluru,P02,1.0,
+1034,2026-04-13,Meera,delhi,P11,1.0,UPI
+1035,2026-01-20,Arjun,Mumbai,P02,2.0,UPI
+1036,2026-06-25,Dev,hyderabad,P08,1.0,UPI
+1037,2026-01-04,Neha,delhi,P06,3.0,UPI
+1038,2026-04-15,Asha,Mumbai,P09,3.0,UPI
+1039,2026-06-08,Meera,Hyderabad,P04,1.0,UPI
+1040,2026-02-03,Rohan,Mumbai,P04,1.0,Card
+1041,2026-05-02,Ravi,delhi,P07,3.0,UPI
+1042,2026-04-21,Dev,Mumbai,P12,1.0,UPI
+1043,2026-05-27,Meera, Pune,P08,2.0,UPI
+1043,2026-05-27,Meera, Pune,P08,2.0,UPI
+1044,2026-05-18,Priya,New Delhi,P01,2.0,UPI
+1045,2026-06-06,Vikram,pune,P01,3.0,UPI
+1046,2026-06-01,Rohan,mumbai ,P02,2.0,UPI
+1047,2026-04-30,Neha,New Delhi,P04,2.0,Cash on Delivery
+1048,2026-03-20,Arjun, Pune,P02,1.0,Cash on Delivery
+1049,2026-01-28,Meera,New Delhi,P12,1.0,Card
+1050,2026-02-10,Kabir,mumbai ,P03,2.0,Card
+1051,2026-06-13,Arjun,Delhi,P05,3.0,Card
+1052,2026-03-03,Neha,Mumbai,P02,2.0,UPI
+1053,2026-06-16,Sana,mumbai ,P03,1.0,UPI
+1054,2026-03-11,Priya,Mumbai,P06,2.0,Cash on Delivery
+1055,2026-01-15,Dev,Mumbai,P05,1.0,Cash on Delivery
+1056,2026-03-08,Neha,delhi,P99,1.0,Cash on Delivery
+1057,2026-03-26,Arjun,Delhi,P09,1.0,Cash on Delivery
+1058,2026-01-27,Vikram,Mumbai,P12,2.0,Card
+1059,2026-04-03,Arjun,pune,P02,3.0,Card
+1060,2026-06-02,Dev,bengaluru,P02,1.0,UPI
+1061,2026-04-01,Neha,mumbai ,P09,1.0,Card
+1062,2026-04-15,Rohan,Mumbai,P05,2.0,
+1063,2026-06-30,Dev,Mumbai,P01,2.0,
+1064,2026-02-21,Priya,PUNE,P01,3.0,Cash on Delivery
+1065,2026-04-23,Isha,Hyderabad,P12,1.0,Card
+1066,2026-06-29,Sana,Hyderabad,P08,1.0,UPI
+1067,2026-04-15,Dev, Pune,P06,,Cash on Delivery
+1068,2026-05-01,Neha,Mumbai,P02,2.0,Card
+1069,2026-04-24,Sana,delhi,P11,2.0,Cash on Delivery
+1070,2026-01-30,Kabir,Mumbai,P04,1.0,Card
+1071,2026-05-21,Arjun,New Delhi,P04,2.0,UPI
+1072,2026-06-18,Vikram,mumbai ,P09,1.0,UPI
+1073,2026-06-20,Meera,bengaluru,P10,2.0,UPI
+1074,2026-04-30,Vikram,hyderabad,P01,2.0,Card
+1075,2026-03-20,Dev,bengaluru,P06,1.0,Card
+1076,2026-05-14,Dev,delhi,P04,1.0,Cash on Delivery
+1077,2026-06-23,Ravi,PUNE,P12,2.0,Cash on Delivery
+1078,2026-06-28,Asha,hyderabad,P04,1.0,UPI
+1079,2026-03-07,Isha,PUNE,P03,1.0,UPI
+1080,2026-06-22,Neha,PUNE,P07,2.0,Cash on Delivery
+1081,2026-05-23,Neha,pune,P11,1.0,UPI
+1082,2026-06-13,Asha,New Delhi,P07,2.0,UPI
+1083,2026-02-10,Rohan,mumbai ,P06,1.0,Cash on Delivery
+1084,2026-06-27,Arjun,PUNE,P02,2.0,Cash on Delivery
+1085,2026-05-26,Isha,PUNE,P02,3.0,
+1086,2026-02-10,Arjun,Delhi,P09,3.0,UPI
+1087,2026-04-23,Neha,Mumbai,P02,1.0,UPI
+1088,2026-01-29,Meera,delhi,P12,1.0,Card
+1089,2026-05-22,Vikram,Delhi,P12,1.0,Cash on Delivery
+1090,2026-05-02,Dev,bengaluru,P07,3.0,UPI
+1091,2026-04-29,Isha,hyderabad,P03,3.0,Cash on Delivery
+1092,2026-06-09,Priya, Pune,P11,3.0,Cash on Delivery
+1093,2026-05-29,Asha,hyderabad,P09,3.0,Card
+1094,2026-01-24,Isha,Bangalore,P09,1.0,UPI
+1095,2026-05-28,Neha,delhi,P02,1.0,Cash on Delivery
+1096,2026-04-23,Vikram,Delhi,P07,1.0,Cash on Delivery
+1097,2026-02-15,Kabir,mumbai ,P10,1.0,UPI
+1098,2026-03-19,Meera,Hyderabad,P02,1.0,Cash on Delivery
+1099,2026-04-17,Sana, Pune,P02,2.0,UPI
+1100,2026-06-11,Kabir,New Delhi,P05,2.0,UPI
+1100,2026-06-11,Kabir,New Delhi,P05,2.0,UPI
+1101,2026-06-14,Meera,bengaluru,P10,1.0,UPI
+1102,2026-01-26,Vikram,Pune,P01,2.0,Cash on Delivery
+1103,2026-04-06,Ravi,New Delhi,P08,1.0,UPI
+1104,2026-06-09,Priya,Mumbai,P07,1.0,UPI
+1105,2026-05-03,Arjun,Bengaluru,P08,1.0,Cash on Delivery
+1106,2026-06-10,Vikram,Pune,P02,3.0,Cash on Delivery
+1107,2026-05-02,Sana,delhi,P12,1.0,Card
+1108,2026-02-22,Isha,Bangalore,P02,2.0,UPI
+1109,2026-04-16,Meera,delhi,P10,1.0,UPI
+1110,2026-04-18,Meera,Mumbai,P01,1.0,Card
+1111,2026-06-16,Priya,Delhi,P08,1.0,Cash on Delivery
+1112,2026-03-21,Arjun,mumbai ,P03,2.0,UPI
+1113,2026-02-25,Vikram,delhi,P04,3.0,UPI
+1114,2026-05-26,Priya,pune,P10,2.0,Card
+1115,2026-04-02,Dev,pune,P04,2.0,UPI
+1116,2026-04-13,Sana,pune,P06,1.0,Card
+1117,2026-06-27,Sana,pune,P07,,UPI
+1118,2026-05-14,Sana,Delhi,P01,2.0,Card
+1119,2026-05-14,Sana,pune,P08,2.0,Cash on Delivery
+1120,2026-06-21,Dev,mumbai ,P12,2.0,Card
+1121,2026-05-21,Isha,delhi,P04,2.0,UPI
+1122,2026-06-24,Kabir,Bangalore,P10,3.0,UPI
+1123,2026-05-08,Rohan,Mumbai,P02,2.0,UPI
+1124,2026-04-30,Sana,Mumbai,P06,2.0,UPI
+1125,2026-03-07,Meera,Mumbai,P02,1.0,Cash on Delivery
+1126,2026-02-24,Dev,PUNE,P02,1.0,UPI
+1127,2026-04-21,Kabir,New Delhi,P07,1.0,Card
+1128,2026-01-16,Kabir,bengaluru,P01,1.0,Card
+1129,2026-02-11,Isha,mumbai ,P12,2.0,Cash on Delivery
+1130,2026-05-20,Asha,New Delhi,P08,1.0,Cash on Delivery
+1131,2026-05-15,Isha,hyderabad,P03,3.0,Cash on Delivery
+1132,2026-01-08,Ravi,delhi,P07,1.0,UPI
+1133,2026-02-09,Vikram,delhi,P01,3.0,UPI
+1134,2026-05-05,Vikram,bengaluru,P07,2.0,Card
+1135,2026-03-30,Rohan,pune,P10,1.0,Card
+1136,2026-05-01,Vikram,Delhi,P10,1.0,
+1137,2026-02-02,Ravi,Delhi,P02,1.0,UPI
+1138,2026-06-11,Kabir,bengaluru,P02,,UPI
+1139,2026-03-02,Sana,mumbai ,P07,1.0,UPI
+1140,2026-03-24,Dev,Delhi,P03,,UPI
+1141,2026-04-07,Kabir,New Delhi,P11,-2.0,UPI
+1142,2026-05-01,Meera,mumbai ,P07,2.0,UPI
+1143,2026-06-28,Ravi,pune,P06,1.0,Card
+1144,2026-02-20,Priya,Mumbai,P09,1.0,Card
+1145,2026-02-09,Rohan,hyderabad,P11,1.0,Card
+1146,2026-02-05,Meera,PUNE,P05,1.0,Cash on Delivery
+1147,2026-05-30,Rohan,pune,P06,1.0,UPI
+1148,2026-03-26,Vikram,mumbai ,P01,1.0,UPI
+1149,2026-06-20,Kabir,pune,P11,1.0,UPI
+1150,2026-01-18,Asha,PUNE,P11,3.0,Cash on Delivery
+1151,2026-04-21,Meera,hyderabad,P01,2.0,Cash on Delivery
+1151,2026-04-21,Meera,hyderabad,P01,2.0,Cash on Delivery
+1152,2026-05-27,Rohan,Mumbai,P04,2.0,UPI
+1153,2026-04-17,Neha,Delhi,P11,1.0,UPI
+1154,2026-03-30,Isha,PUNE,P07,1.0,Cash on Delivery
+1155,2026-06-04,Neha,Delhi,P04,1.0,UPI
+1156,2026-04-17,Rohan,pune,P04,1.0,UPI
+1157,2026-06-18,Dev,bengaluru,P07,2.0,UPI
+1158,2026-02-26,Sana,Mumbai,P08,1.0,UPI
+1159,2026-05-02,Priya,PUNE,P02,1.0,UPI
+1160,2026-05-08,Kabir,Bangalore,P05,2.0,UPI
+1161,2026-06-18,Isha,Delhi,P10,1.0,Card
+1162,2026-01-24,Dev,Mumbai,P10,3.0,UPI
+1163,2026-06-03,Kabir,Pune,P08,1.0,UPI
+1164,2026-05-16,Arjun,Bangalore,P10,2.0,UPI
+1165,2026-06-11,Dev,Mumbai,P08,1.0,Card
+1166,2026-05-04,Isha,pune,P10,2.0,Cash on Delivery
+1167,2026-04-08,Vikram,Hyderabad,P04,,Cash on Delivery
+1168,2026-06-02,Meera,Pune,P01,1.0,UPI
+1169,2026-03-07,Isha,Pune,P01,2.0,UPI
+1170,2026-01-15,Asha,mumbai ,P07,2.0,UPI
+1171,2026-05-26,Sana,pune,P01,1.0,UPI
+1172,2026-06-04,Asha,Mumbai,P10,,UPI
+1173,2026-06-06,Vikram,delhi,P02,1.0,Card
+1174,2026-04-07,Sana,Hyderabad,P10,2.0,Card
+1175,2026-05-23,Ravi,Hyderabad,P04,3.0,UPI
+1176,2026-05-20,Asha,PUNE,P01,1.0,UPI
+1177,2026-03-08,Dev,Bangalore,P04,,UPI
+1178,2026-05-28,Rohan, Pune,P01,2.0,Card
+1179,2026-06-26,Neha,Bangalore,P02,1.0,UPI
+1180,2026-03-20,Rohan,Pune,P02,1.0,UPI
+1181,2026-03-05,Vikram,delhi,P12,1.0,Card
+1182,2026-04-30,Rohan,New Delhi,P05,1.0,UPI
+1183,2026-06-14,Vikram,Bengaluru,P06,2.0,Card
+1184,2026-05-04,Arjun,Hyderabad,P01,1.0,UPI
+1185,2026-06-26,Asha,pune,P01,2.0,Card
+1186,2026-06-20,Asha,delhi,P07,1.0,UPI
+1187,2026-05-20,Vikram,New Delhi,P04,1.0,Card
+1188,2026-05-19,Meera,pune,P03,1.0,UPI
+1189,2026-02-13,Ravi,Delhi,P02,1.0,UPI
+1190,2026-03-18,Priya,mumbai ,P09,2.0,Cash on Delivery
+1191,2026-06-04,Ravi,pune,P12,2.0,Cash on Delivery
+1192,2026-03-29,Sana,Mumbai,P04,2.0,Cash on Delivery
+1193,2026-02-23,Kabir,Mumbai,P04,1.0,UPI
+1194,2026-01-17,Arjun,Delhi,P03,1.0,UPI
+1195,2026-02-22,Arjun,delhi,P02,3.0,Cash on Delivery
+1196,2026-04-29,Isha,Mumbai,P04,2.0,Cash on Delivery
+1197,2026-06-20,Rohan,hyderabad,P10,3.0,UPI
+1198,2026-03-27,Sana, Pune,P01,2.0,UPI
+1199,2026-06-01,Meera, Pune,P10,2.0,UPI
+1200,2026-02-02,Asha,mumbai ,P01,3.0,Cash on Delivery
+1201,2026-06-06,Priya,bengaluru,P06,1.0,UPI
+1202,2026-06-21,Rohan,Delhi,P99,3.0,Card
+1203,2026-04-16,Arjun, Pune,P04,2.0,UPI
+1204,2026-04-08,Dev,Delhi,P10,3.0,Cash on Delivery
+1205,2026-06-18,Isha,Bangalore,P09,,UPI
+1206,2026-02-23,Arjun,Bangalore,P07,3.0,Card
+1207,2026-06-20,Sana,PUNE,P04,3.0,UPI
+1208,2026-06-19,Kabir,Pune,P02,3.0,UPI
+1209,2026-06-25,Dev,Bangalore,P07,2.0,UPI
+1210,2026-06-15,Isha,Bengaluru,P02,3.0,UPI
+1211,2026-04-20,Priya,pune,P10,3.0,UPI
+1212,2026-05-15,Neha,delhi,P10,3.0,UPI
+1213,2026-04-21,Vikram,Pune,P06,2.0,Cash on Delivery
+1214,2026-03-10,Sana,Mumbai,P08,1.0,Card
+1215,2026-06-29,Ravi, Pune,P08,1.0,UPI
+1216,2026-01-07,Priya, Pune,P04,1.0,
+1217,2026-02-28,Arjun, Pune,P02,2.0,Card
+1218,2026-06-21,Isha,Hyderabad,P05,3.0,Card
+1219,2026-06-24,Vikram,delhi,P06,2.0,Card
+1220,2026-03-06,Isha, Pune,P08,1.0,UPI
+1221,2026-06-30,Ravi,Mumbai,P08,1.0,Cash on Delivery
+1222,2026-06-04,Rohan,Mumbai,P01,3.0,Cash on Delivery
+1223,2026-05-30,Dev,delhi,P11,1.0,UPI
+1223,2026-05-30,Dev,delhi,P11,1.0,UPI
+1224,2026-04-28,Rohan,Mumbai,P02,3.0,UPI
+1225,2026-03-28,Kabir,Mumbai,P02,1.0,UPI
+1226,2026-01-03,Ravi,Mumbai,P01,2.0,Cash on Delivery
+1227,2026-03-23,Kabir,delhi,P06,3.0,Cash on Delivery
+1228,2026-03-24,Neha,hyderabad,P11,1.0,Card
+1229,2026-01-21,Kabir,delhi,P07,1.0,Card
+1230,2026-01-22,Priya,Bangalore,P06,2.0,UPI
+1231,2026-03-03,Isha,pune,P10,3.0,Card
+1232,2026-04-15,Ravi,Pune,P12,3.0,UPI
+1233,2026-05-29,Rohan,bengaluru,P06,1.0,Card
+1234,2026-05-01,Vikram,New Delhi,P09,1.0,UPI
+1235,2026-04-23,Sana,Mumbai,P12,1.0,UPI
+1236,2026-06-02,Ravi,mumbai ,P01,3.0,UPI
+1237,2026-06-09,Vikram,PUNE,P07,2.0,UPI
+1238,2026-04-05,Ravi,Delhi,P08,2.0,UPI
+1239,2026-05-04,Dev,mumbai ,P06,2.0,Card
+1240,2026-06-20,Neha,mumbai ,P03,3.0,Card
+1241,2026-01-21,Ravi,Bangalore,P03,1.0,UPI
+1242,2026-05-04,Vikram,Hyderabad,P11,1.0,Cash on Delivery
+1243,2026-05-30,Vikram,Hyderabad,P11,,Card
+1244,2026-04-03,Rohan,mumbai ,P02,3.0,Card
+1245,2026-05-26,Arjun,PUNE,P09,,UPI
+1246,2026-06-08,Rohan, Pune,P08,1.0,UPI
+1247,2026-05-28,Vikram,Mumbai,P05,3.0,Card
+1248,2026-04-22,Ravi,PUNE,P04,2.0,UPI
+1249,2026-05-22,Asha,PUNE,P04,2.0,Cash on Delivery
+1250,2026-05-20,Neha,pune,P08,3.0,Cash on Delivery
+1251,2026-03-26,Sana,hyderabad,P05,1.0,UPI
+1252,2026-01-06,Neha,Pune,P08,2.0,Card
+1253,2026-06-24,Asha, Pune,P08,1.0,UPI
+1254,2026-04-10,Asha,Hyderabad,P12,1.0,
+1255,2026-03-10,Rohan,New Delhi,P08,1.0,UPI
+1256,2026-02-28,Vikram,Delhi,P01,3.0,UPI
+1257,2026-03-29,Neha,Mumbai,P02,2.0,Card
+1258,2026-04-29,Meera,hyderabad,P07,2.0,UPI
+1259,2026-04-19,Kabir,Hyderabad,P01,1.0,Card
+1260,2026-03-26,Arjun,New Delhi,P05,1.0,UPI
+1261,2026-01-21,Ravi,hyderabad,P99,1.0,UPI
+1262,2026-06-28,Arjun,mumbai ,P02,3.0,Card
+1263,2026-01-05,Ravi,Mumbai,P01,1.0,Cash on Delivery
+1264,2026-06-19,Priya,Bengaluru,P01,2.0,UPI
+1265,2026-01-09,Priya,Delhi,P02,1.0,UPI
+1266,2026-04-17,Sana,Pune,P11,3.0,UPI
+1267,2026-05-31,Meera,Mumbai,P04,2.0,Card
+1268,2026-05-13,Vikram,PUNE,P11,2.0,Card
+1269,2026-05-19,Vikram,Bangalore,P01,2.0,Cash on Delivery
+1270,2026-01-25,Meera,Mumbai,P07,1.0,Card
+1271,2026-06-12,Sana,pune,P06,1.0,Cash on Delivery
+1272,2026-05-10,Meera,Hyderabad,P07,2.0,UPI
+1273,2026-06-23,Kabir,hyderabad,P10,2.0,Card
+1274,2026-06-30,Arjun,New Delhi,P04,2.0,UPI
+1275,2026-05-27,Vikram,Mumbai,P07,2.0,
+1276,2026-06-03,Isha,Delhi,P02,2.0,UPI
+1277,2026-06-25,Vikram, Pune,P09,1.0,UPI
+1278,2026-05-21,Priya,pune,P06,1.0,Cash on Delivery
+1279,2026-05-04,Neha,Mumbai,P01,2.0,UPI
+1280,2026-04-20,Neha,mumbai ,P03,1.0,Card
+1281,2026-04-20,Arjun,Bangalore,P02,1.0,Card
+1282,2026-05-09,Arjun, Pune,P09,1.0,UPI
+1283,2026-05-06,Kabir, Pune,P04,2.0,Card
+1284,2026-01-01,Rohan,delhi,P06,1.0,Card
+1285,2026-02-06,Asha,Bangalore,P07,1.0,Card
+1286,2026-04-01,Isha,bengaluru,P04,1.0,UPI
+1287,2026-03-08,Arjun,Delhi,P12,2.0,UPI
+1288,2026-05-14,Sana,Hyderabad,P09,1.0,UPI
+1289,2026-06-29,Sana,Mumbai,P07,1.0,Card
+1290,2026-03-03,Priya,Bengaluru,P02,2.0,UPI
+1291,2026-06-04,Meera,Mumbai,P04,2.0,Cash on Delivery
+1292,2026-03-24,Vikram,Mumbai,P04,2.0,Card
+1293,2026-05-22,Vikram,Hyderabad,P08,2.0,UPI
+1294,2026-01-23,Dev,Mumbai,P01,1.0,UPI
+1295,2026-05-06,Rohan,New Delhi,P02,2.0,Cash on Delivery
+1296,2026-04-19,Priya,Mumbai,P09,1.0,Card
+1297,2026-06-07,Kabir,PUNE,P04,2.0,Cash on Delivery
+1298,2026-01-30,Rohan, Pune,P03,1.0,Card
+1299,2026-04-19,Neha,Mumbai,P01,3.0,UPI
+1300,2026-06-11,Vikram,delhi,P01,1.0,UPI

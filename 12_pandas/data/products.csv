@@ -1,0 +1,13 @@
+product_id,product,category,price
+P01,Wireless Earbuds,Electronics,1999
+P02,Phone Charger,Electronics,499
+P03,Smart Watch,Electronics,4999
+P04,Python Crash Course,Books,899
+P05,Data Science Handbook,Books,1299
+P06,Notebook Pack,Books,249
+P07,Coffee Mug,Home,349
+P08,Desk Lamp,Home,1199
+P09,Cushion Cover,Home,399
+P10,Cotton Kurta,Clothing,1499
+P11,Running Shoes,Clothing,2999
+P12,Denim Jacket,Clothing,2499

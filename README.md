@@ -40,7 +40,7 @@ pip install -r requirements.txt
 | # | Topic | Status |
 |---|-------|--------|
 | 11 | [NumPy](11_numpy/): arrays, vectorisation, broadcasting, axis, masks, NaN | ✅ |
-| 12 | Pandas: Series, DataFrame, cleaning, groupby, merge | ⏳ |
+| 12 | [Pandas](12_pandas/): cleaning messy data, groupby, merge, pivot tables (Jupyter notebook) | ✅ |
 | 13 | Visualisation: Matplotlib and Seaborn | ⏳ |
 | 14 | Statistics for data science | ⏳ |
 | 15 | EDA project on a real dataset | ⏳ |
